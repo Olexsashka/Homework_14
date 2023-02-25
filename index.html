@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+<!-- --------------------------------------------------------header---------------------------------------------------------------------------------- -->
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a href="#" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
+                <ul class="menu_nav list">
+                    <li class="menu_nav-item"><a class="menu_nav-link link current" href="#">Студія</a>
+                    </li>
+                    <li class="menu_nav-item"><a class="menu_nav-link link" href="#">Партфоліо</a></li>
+                    <li class="menu_nav-item"><a class="menu_nav-link link" href="#">Контакти</a></li>
+                </ul>
+<!-- ==========================================contacts==================================================================== -->
+                <ul class="header_contact list">
+                    <li class="header_contact-item"><a class="header_contact-link link"
+                            href="mailto:info@devstudio.com">
+                            <svg class="header_icon" width="16" height="12">
+                                <use href="./sprite.svg#icon-mail"></use>
+                            </svg>
+                            info@devstudio.com</a></li>
+                    <li class="header_contact-item"><a class="header_contact-link link" href="tel:+380961111111">
+                            <svg class="header_icon" width="15" height="16">
+                                <use href="./sprite.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11</a></li>
+                </ul>
+  <!-- ===================================burger button=========================================================================               -->
+                <button type="button" class="menu_open">
+                    <svg class="menu_open-icon" width="18" height="18">
+                        <use href="./sprite.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main>
+<!-- --------------------------------------------------HERO------------------------------------------------------------------- -->
+        <section class="hero">
+            <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="hero_button">Замовити послугу</button>
+        </section>
+<!-- -------------------------------FUTURE------------------------------------------------------------------------------------------------ -->
+        <section class="feature section">
+            <div class="container">
+                <ul class="feature_list">
+                    <li class="feature_item">
+                        <div class="wrap_icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="./sprite.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature_title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="feature_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Voluptatem veritatis exercitationem velit magnam iure.</p>
+                    </li>
+                    <li class="feature_item">
+                        <div class="wrap_icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="./sprite.svg#icon-clock"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature_title">ПУНКТУАЦІЯ</h3>
+                        <p class="feature_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Voluptatem veritatis exercitationem velit magnam iure.</p>
+                    </li>
+                    <li class="feature_item">
+                        <div class="wrap_icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="./sprite.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature_title">ПЛАНУВАННЯ</h3>
+                        <p class="feature_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Voluptatem veritatis exercitationem velit magnam iure.</p>
+                    </li>
+                    <li class="feature_item">
+                        <div class="wrap_icon">
+                            <svg class="icon" width="65" height="70">
+                                <use href="./sprite.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
+                        <h3 class="feature_title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p class="feature_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Voluptatem veritatis exercitationem  velit magnam iure.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- ----------------------------------WHATWEDO------------------------------------------------------------------------------- -->
+        <section class="section section_works">
+            <div class="container">
+                <h2 class="section_title">Чим ми займаємося</h2>
+                <ul class="work_list list">
+                    <li class="work_item">
+                        <img src="./images/wwd1.jpg" width="370" height="294" />
+                    </li>
+                    <li class="work_item">
+                        <img src="./images/wwd2.jpg" width="370" height="294" />
+                    </li>
+                    <li class="work_item">
+                        <img src="./images/wwd3.jpg" width="370" height="294" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- -----------------------------------------------------------OURTEAM----------------------------------------------------- -->
+        <section class="section section_team">
+            <div class="section_team">
+                <h2 class="section_title">Наша команда</h2>
+                <ul class="team_list">
+                    <li class="team_item">
+                        <img src="./images/ID.jpg" alt="Ігор Дем’яненко" width="270" />
+                        <div class="card_team">
+                            <h3 class="team_title">Ігор Дем’яненко</h3>
+                            <p class="team_text">Product Designer</p>
+                        </div>
+                    </li>
+                    <li class="team_item">
+                        <img src="./images/OR.jpg" alt="Ольга Репіна" width="270" />
+                        <div class="card_team">
+                            <h3 class="team_title">Ольга Репіна</h3>
+                            <p class="team_text">Frontend Developer</p>
+                        </div>
+                    </li>
+                    <li class="team_item">
+                        <img src="./images/MT.jpg" alt="Микола Тарасов" width="270" />
+                        <div class="card_team">
+                            <h3 class="team_title">Микола Тарасов</h3>
+                            <p class="team_text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="team_item">
+                        <img src="./images/MY.jpg" alt="Михайло Єрмаков" width="270" />
+                        <div class="card_team">
+                            <h3 class="team_title">Михайло Єрмаков</h3>
+                            <p class="team_text">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+<!-- -----------------------------------------------------CLIENTS---------------------------------------------------- -->
+        <section class="section section_ourclients">
+            <div class="container">
+                <h2 class="clients_h">Постійні клієнти</h2>
+                <ul class="clients_list">
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="45" height="50">
+                            <use href="./sprite.svg#icon-logo-1">
+                            </use>
+                        </svg>
+                    </li>
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="40" height="52">
+                            <use href="./sprite.svg#icon-logo-2">
+                            </use>
+                        </svg>
+                    </li>
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="41" height="42">
+                            <use href="./sprite.svg#icon-logo-3">
+                            </use>
+                        </svg>
+                    </li>
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="80" height="42">
+                            <use href="./sprite.svg#icon-logo-4">
+                            </use>
+                        </svg>
+                    </li>
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="60" height="47">
+                            <use href="./sprite.svg#icon-logo-5">
+                            </use>
+                        </svg>
+                    </li>
+                    <li class="clients_li">
+                        <svg class="clients_icon" width="88" height="45">
+                            <use href="./sprite.svg#icon-logo-6">
+                            </use>
+                        </svg>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+<!-- ------------------------------------------------------FOOTER--------------------------------------------------- -->
+    <footer class="footer section">
+        <div class="footer_sect container">
+            <ul>
+            <li><a href="#" class="footer_logo"><span class="footer_span">Web</span>Studio</a></li>
+            <address class="footer_contacts">
+                <li><p class="address">м. Київ, пр-т Лесі Українки, 26</p></li>
+                <li><a href="mailto:info@devstudio.com" class="footer_mailandphone">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="footer_mailandphone">+38 096 111 11 11</a></li>
+            </address>
+        </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
