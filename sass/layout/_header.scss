@@ -1,0 +1,129 @@
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .page_header {
+      display: flex;
+      height: 80px;
+      align-items: center;
+      padding: 0;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      .page_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+  }
+
+  .menu_nav {
+    display: none;
+  }
+  
+  .header_contact {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+  .menu_nav-link{
+      text-decoration: none;
+      color: $black;
+  }
+  
+    .menu_nav {
+      display: flex;
+      margin-left: 93px;
+      align-items: center;
+    }
+  
+    .menu_nav .link:hover {
+     color: $light-blue; 
+    }
+  
+  
+    .header_contact .link:hover {
+      color: $light-blue;
+    }
+  
+    .menu_nav-item {
+      position: relative;
+      margin-right: 57px;
+    }
+  
+    .menu_nav-item {
+      color: $dark;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+    }
+  
+    .header_contact {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .header-icon {
+      fill: $grey;
+      margin-right: 10px;
+    }
+  
+    .header_contact-link {
+      color: $grey;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+    }
+  
+    .header_contact-link:hover {
+      color: $light-blue;
+    }
+  
+    .header_contact-link:hover .header_icon {
+      fill: $light-blue;
+    }
+  
+  }
+  
+  @media screen and (min-width: 1199px) {
+    .header_contact {
+      min-width: 340px;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+    }
+  
+    .header_contact li:nth-child(2) {
+      margin-left: 30px;
+    }
+  
+    .header_icon{
+      margin-right: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .header_contact-item:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+  

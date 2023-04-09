@@ -1,0 +1,33 @@
+.section_works {
+    display: none;
+  }
+  
+  @media screen and (min-width:1200px) {
+    .section_works {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: $dark;
+  
+      display: flex;
+    }
+  
+    .section_title_wwd{
+      margin-bottom: 50px;
+  
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+  
+      color: $dark;
+    }
+  
+    .work_list {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
