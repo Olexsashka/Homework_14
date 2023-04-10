@@ -232,10 +232,10 @@ body {
             align-items: center;
   }
   .menu_nav .link:hover {
-    color: #2196f3;
+    color: #2196F3;
   }
   .header_contact .link:hover {
-    color: #2196f3;
+    color: #2196F3;
   }
   .menu_nav-item {
     position: relative;
@@ -272,7 +272,7 @@ body {
     color: #2196F3;
   }
   .header_contact-link:hover .header_icon {
-    fill: #188CE8;
+    fill: #2196F3;
   }
 }
 @media screen and (min-width: 1199px) {
@@ -304,7 +304,7 @@ body {
 .hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4)));
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-  background-image: url(../images/mobile/main3.jpg);
+  background-image: url(../../images/mobile/main3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -338,14 +338,14 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/tablet/main2.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/main2.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/tablet/main2.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/main2.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/dekstop/main.png);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/dekstop/main.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/dekstop/main.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/dekstop/main.jpg);
   }
 }
 .feature_title {
@@ -508,6 +508,7 @@ body {
   font-size: 28px;
   line-height: 33px;
   letter-spacing: 0.03em;
+  color: #212121;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -536,7 +537,7 @@ body {
 }
 
 .clients_li:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid #2196F3;
   cursor: pointer;
 }
 
@@ -623,7 +624,7 @@ body {
 }
 
 .footer_span {
-  color: #2196f3;
+  color: #2196F3;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -648,7 +649,7 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #AFB1B8;
 }
 
 @media screen and (max-width: 768px) {
@@ -659,7 +660,7 @@ body {
     line-height: 1.7;
   }
   .footer_span {
-    color: #2196f3;
+    color: #2196F3;
   }
   .address {
     color: #FFFFFF;
@@ -667,7 +668,7 @@ body {
     text-align: center;
   }
   .footer_mailandphone {
-    color: rgba(255, 255, 255, 0.6);
+    color: #AFB1B8;
     display: block;
     text-align: center;
     letter-spacing: 0.03em;

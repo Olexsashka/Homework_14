@@ -1,6 +1,6 @@
 .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    background-image: url(../images/mobile/main3.jpg);
+    background-image: url(../../images/mobile/main3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,13 +29,13 @@
 
   @media screen and (min-width:768px) {
     .hero {
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet/main2.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet/main2.jpg);
     }
   }
   
   @media screen and (min-width:1200px) {
     .hero {
-      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/dekstop/main.png);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/dekstop/main.jpg);
     }
   
   }
